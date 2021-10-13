@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .mainNavbar {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .mainNavbar .navbarMain {
+      padding: 20px 0px 0px 0px; }
+      .mainNavbar .navbarMain .navbarDown {
+        display: inline-block;
+        color: #ffffff;
+        margin: 0px 45px 0px 45px;
+        font-size: 21px;
+        text-decoration: none;
+        font-weight: bold; }
+      .mainNavbar .navbarMain .navbarDown:hover {
+        text-decoration: overline;
+        color: #fc791e; }
+  
+  /*Consulta de Medios para Teléfonos Móviles*/
+  @media (max-width:576px) {
+  
+    .mainNavbar .navbarMain {
+      display: inline;
+    }
+  
+  }
+  

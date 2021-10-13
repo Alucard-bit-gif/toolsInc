@@ -1,0 +1,15 @@
+.carousel {
+  margin-top: -50px;
+  margin-bottom: -100px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.carousel-control-prev-icon {
+  background-color: dodgerblue;
+  margin-right: 70px; }
+
+.carousel-control-next-icon {
+  background-color: dodgerblue;
+  margin-left: 70px; }

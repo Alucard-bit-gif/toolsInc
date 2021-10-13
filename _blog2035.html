@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="_index.css" media = "screen">
+    <link rel="stylesheet" type="text/css" href="_blog2035.css" media = "screen">
+    <title>org2035</title>
+  </head>
+  <body>
+    <header id="mainHeader">
+      <div class="headImage">
+        <a class="headLogo" href="index.html">
+          <img class="logoHead" src="_imagenes2035/Logo_CEorg2035.jpg" alt="Logotipo" width="165" height="165">
+        </a>
+      </div>
+
+      <nav class="mainNavbar">
+        <div class="navbarMain">
+          <a class="navbarDown" href="_portafolio.html">Portafolio</a>
+          <a class="navbarDown" href="_herramientas.html">Herramientas</a>
+          <a class="navbarDown" href="_informacion.html">Org2035</a>
+          <a class="navbarDown" href="_blog2035.html">Blog</a>
+          <a class="navbarDown" href="_contactos.html">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+  <h2>📈<br>Simulador Pronóstico de Ventas</h2>
+  <div id="demoMath">
+    <div class = "toolDemo">
+        <div id="infoValor">
+          <div class="fullCard">
+            <h6><div class ="textoVentas">Para cálcular las ventas de años futuros debes inresar las
+                                          ventas de años anteriores. Para este caso ingresa las ventas
+                                          de cinco años, luego haz clic en calcular y en el cuadro de abajo
+                                          verás las ventas de los próximos cinco años.</div></h6><hr>
+              <div class="simuladorKit">
+                <form class="ventasForm">
+                  <div class="ventasPeriodos">
+                    <label for="qVentas" class="ventasLabel"><b>Ventas Año Uno</b></label><br>
+                    <input type="text" id="ventasMax1" value= ""><br><br>
+                    <label for="qVentas" class="ventasLabel"><b>Ventas Año Dos</b></label><br>
+                    <input type="text" id="ventasMax2" value=""><br><br>
+                    <label for="qVentas" class="ventasLabel"><b>Ventas Año Tres</b></label><br>
+                    <input type="text" id="ventasMax3" value=""><br><br>
+                    <label for="qVentas" class="ventasLabel"><b>Ventas Año Cuatro</b></label><br>
+                    <input type="text" id="ventasMax4" value=""><br><br>
+                    <label for="qVentas" class="ventasLabel"><b>Ventas Año Cinco</b></label><br>
+                    <input type="text" id="ventasMax5" value=""><br><br>
+                    <button id="Boton" type="button" class="btn btn-success" onclick="calcularG()">Calcular</button>
+                  </div>
+                </form>
+               </div>
+           </div>
+         </div>
+     </div>
+
+     <div class = "toolDemo">
+         <div id="infoValor">
+           <div class="fullCard">
+             <h4><div class ="textoVentas">Ventas de los próximos cinco años.</div></h4><hr>
+               <div class="simuladorKit">
+                 <form class="ventasForm">
+                   <div class="ventasPeriodos">
+                     <label for="qVentas" id ="ventasAnuales" class="qventasLabel"><b>Ventas Año Seis</b></label><br>
+                     <input type="text" id="ventasMax6"><br><br>
+                     <label for="qVentas" id ="ventasAnuales" class="qventasLabel"><b>Ventas Año Siete</b></label><br>
+                     <input type="text" id="ventasMax7" placeholder=" "required><br><br>
+                     <label for="qVentas" id ="ventasAnuales" class="qventasLabel"><b>Ventas Año Ocho</b></label><br>
+                     <input type="text" id="ventasMax8" placeholder=" "required><br><br>
+                     <label for="qVentas" id ="ventasAnuales" class="qventasLabel"><b>Ventas Año Nueve</b></label><br>
+                     <input type="text" id="ventasMax9" placeholder=" "required><br><br>
+                     <label for="qVentas" id ="ventasAnuales" class="qventasLabel"><b>Ventas Año Diez</b></label><br>
+                     <input type="text" id="ventasMax10" placeholder= ""><br><br>
+                     <!--<button id="Boton" type="button" class="btn btn-warning" onclick="ResetearG()">Resetear</button>-->
+                   </div>
+                 </form>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>    
+
+    <footer class="bg-dark text-center text-white">
+               <!-- Grid container -->
+               <div class="container p-4 pb-0">
+                   <!-- Section: Social media -->
+                   <img class ="logoredes" src="_imagenes2035/facebook_official_logo_icon.png" alt="facebook" width="40" height="40">
+                   <img class ="logoredes" src="_imagenes2035/twitter_101809.png" alt="twitter" width="45" height="45">
+                   <img class ="logoredes" src="_imagenes2035/instagram_logo.png" alt="instagram" width="40" height="40">
+               </div>
+
+               <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+                   ORG 2035<br>
+                   Competencias para el Emprendimiento<br>
+                   📱 Teléfono/Whatsapp: +57 305 2783810<br>
+                   ✉️ e-mail: org2035@gmail.com<br>
+                   © 2021 Copyright.
+
+               </div>
+               <div>
+                   Elaborado con tecnología:
+                   <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -
+                   Diseño Web: <a class="text-white" href="https://co.linkedin.com/in/sebastian-vargas-294a04126">Sebastián
+                       Vargas</a><br>
+               </div>
+    </footer>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+-->
+      <script src="_blogMain.js"></script>
+   </body>
+</html>

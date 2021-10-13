@@ -1,0 +1,18 @@
+/*Página Inicio*/
+@import "_headerNavbar/_headerMain.css";
+@import "_headerNavbar/_navbarMain.css";
+@import "_footer2035/_footerMain.css";
+@import "_infoValor/_infoValorMain.css";
+@import "_tools2035/_toolsMain.css";
+@import "_numbers2035/_numbersMain.css";
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+
+
+header {
+    background-image:url('_imagenes2035/1150124.png');
+    padding: 40px 0px 40px 0px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}

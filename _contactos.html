@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="_index.css" media = "screen">
+    <link rel="stylesheet" type="text/css" href="_contactos.css" media = "screen">
+    <title>org2035</title>
+  </head>
+  <body>
+    <!--Bloque Uno:Header + Navbar-->
+    <header id="mainHeader">
+      <div class="headImage">
+        <a class="headLogo" href="index.html">
+          <img class="logoHead" src="_imagenes2035/Logo_CEorg2035.jpg" alt="Logotipo" width="165" height="165">
+        </a>
+      </div>
+
+      <nav class="mainNavbar">
+        <div class="navbarMain">
+          <a class="navbarDown" href="_portafolio.html">Portafolio</a>
+          <a class="navbarDown" href="_herramientas.html">Herramientas</a>
+          <a class="navbarDown" href="_informacion.html">Org2035</a>
+          <a class="navbarDown" href="_blog2035.html">Blog</a>
+          <a class="navbarDown" href="_contactos.html">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <h1 id="title">Formulario de Inscripción</h1>
+      <p id= "description"><b></b></p>
+        <form id = "survey-form">
+          <div class= "form-geek">
+            <div class= "nombre">
+              <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Nombre completo</strong>
+              </label>
+             </div> <br>
+            <input type="text" id="name" placeholder=" Ingrese su nombre" required>
+             <div class= "correo">
+              <label for="correo-usuario" class="usergeek" id="email-label"><strong>Correo electrónico</strong>
+              </label>
+             </div> <br>
+            <input type="email" id="email" placeholder=" Ingrese su email" required>
+             <div class= "expert">
+              <label for="expert-usuario" class="usergeek" id="number-label"><strong>Edad (Años cumplidos)</strong>
+              </label>
+             </div> <br>
+            <input type="number" id="number" placeholder="tiempo años" min="13" max="80">
+             <div class= "temasgeek">
+              <label for="temas-geek" class="usergeek"><strong>Elija el área de su preferencia </strong>
+              </label>
+             </div> <br>
+
+                <select name="temas" id="dropdown" size="1" required>
+                    <option value="atom">Evaluación Proyectos</option>
+                    <option value="visual">Inteligencia Financiera</option>
+                    <option value="pen">Toma de Decisiones</option>
+                    <option value="box">Ideas de Negocio</option>
+                    <option value="phyton">Estudios de Localización</option>
+                </select>
+
+              <div class= "sourcegeek">
+                <label for="source-geek" class="usergeek"><strong>¿Cómo se enteró del Proyecto Org2035?</strong>
+                 </label>
+              </div> <br>
+                <input id="media-geek" type="radio" name="s-info">
+                 <label for="newbie">TV/ Radio/ Prensa</label><br>
+                <input id="web-geek" type="radio" name="s-info">
+                 <label for="newbie">Email/ Página web</label><br>
+                <input id="app-geek" type="radio" name="s-info">
+                 <label for="newbie">App Alcaldía de Medellín</label><br>
+                <input id="corpo-geek" type="radio" name="s-info">
+                 <label for="newbie">Parque E/ Waima/ Proasedu</label><br>
+                <input id="person-geek" type="radio" name="s-info">
+                 <label for="newbie">Recomendación personal</label><br>
+                    <br>
+                    <br>
+              <div id="projects">
+                <fieldset>
+                <legend id="contenidos">Seleccione los contenidos favoritos</legend><br>
+                <input id="frontend" type="checkbox" name="matter" value="frontend">
+                <label for="frontend">Pronóstico de Ventas</label><br>
+                <input id="backend" type="checkbox" name="matter" value="backend">
+                <label for="backend">Estimación Costos</label><br>
+                <input id="datos" type="checkbox" name="matter" value="datos">
+                <label for="datos">Estudio de Datos</label><br>
+                <input id="lab" type="checkbox" name="matter" value="lab">
+                <label for="lab">Poyección Rentabilidad</label><br>
+                <input id="codigos" type="checkbox" name="matter" value="codigos">
+                <label for="codigos">Nichos de Mercado</label><br>
+                </fieldset>
+                </div>
+
+              <div class= "comentgeek">
+                  <label for="coment-geek" class="usergeek" required><strong>Escriba algún comentario o recomendación</strong>
+                  </label>
+                  </div> <br><div>
+                  <textarea name="textarea" rows="10" cols="89" class="sugerencia">Escriba algo aqui</textarea>
+                  <button type= "submit" id="cleanit">Limpiar Formulario</button><br><br>
+                  <button type= "submit" id="submit">Enviar Registro</button>
+                </div>
+              </div>
+    </form>
+
+
+    <footer class="bg-dark text-center text-white">
+               <!-- Grid container -->
+               <div class="container p-4 pb-0">
+                   <!-- Section: Social media -->
+                   <img class ="logoredes" src="_imagenes2035/facebook_official_logo_icon.png" alt="facebook" width="40" height="40">
+                   <img class ="logoredes" src="_imagenes2035/twitter_101809.png" alt="twitter" width="45" height="45">
+                   <img class ="logoredes" src="_imagenes2035/instagram_logo.png" alt="instagram" width="40" height="40">
+               </div>
+
+               <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+                   ORG 2035<br>
+                   Competencias para el Emprendimiento<br>
+                   📱 Teléfono/Whatsapp: +57 305 2783810<br>
+                   ✉️ e-mail: org2035@gmail.com<br>
+                   © 2021 Copyright.
+
+               </div>
+               <div>
+                   Elaborado con tecnología:
+                   <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -
+                   Diseño Web: <a class="text-white" href="https://co.linkedin.com/in/sebastian-vargas-294a04126">Sebastián
+                       Vargas</a><br>
+               </div>
+    </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  -->
+   </body>
+</html>

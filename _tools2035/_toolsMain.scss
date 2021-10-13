@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  #kitMainTools {
+    margin: 150px 0px 50px 0px;
+    background-color: rgba(0, 139, 139, 0.9);
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    #kitMainTools .toolsKit {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #ffffff;
+      font-size: 35px;
+      font-weight: bold; }
+    #kitMainTools .kitTools {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 0px;
+      text-align: center; }
+      #kitMainTools .kitTools .herramientasStar {
+        padding-top: 70px; }
+        #kitMainTools .kitTools .herramientasStar .imagesTools {
+          font-size: 100px;
+          padding-bottom: 50px; }
+        #kitMainTools .kitTools .herramientasStar h3 {
+          color: #ffffff;
+          font-size: 30px;
+          font-weight: bold;
+          font-family: Verdana, Geneva, Tahoma, sans-serif; }
+      #kitMainTools .kitTools .herramientasStar:hover {
+        transform: scale(1.2, 1.2); }
+  
+  /*Consulta de Medios para Teléfonos Móviles*/
+        @media (max-width:576px){
+  
+          #kitMainTools .toolsKit {
+            font-size: 25px;}
+            #kitMainTools .kitTools {
+              display: inline;}
+              #kitMainTools .kitTools .herramientasStar h3{
+                font-size: 20px;
+              }
+        }
+  
+  /*Consulta de Medios para Tablets*/
+        @media (max-width:600px){
+  
+          #kitMainTools .toolsKit {
+            font-size: 25px;}
+            #kitMainTools .kitTools {
+              display: inline;}
+              #kitMainTools .kitTools .herramientasStar h3{
+                font-size: 20px;
+              }
+        }
+  

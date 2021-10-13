@@ -1,0 +1,122 @@
+#title {
+  color: #ffffff;
+  font-family: 'Numans', sans-serif;
+  text-align: center;
+  margin: 25px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
+  font-weight: bolder; }
+
+.form-geek {
+  background-color: rgba(4, 6, 8, 0.7);
+  margin: 50px 300px 50px 330px;
+  border-width: 0px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 5px;
+  height: 1550px;
+  font-family: 'Numans', sans-serif;
+  color: #ffffff;
+  padding-top: 50px; }
+
+.usergeek {
+  margin-left: 40px; }
+
+#name {
+  margin: 0px 50px 50px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px; }
+
+#email {
+  margin: 0px 50px 50px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px; }
+
+#number {
+  margin: 0px 50px 50px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px; }
+
+#source-geek {
+  margin: 0px 0px 15px 60px;
+  border-radius: 5px;
+  font-size: 0px;
+  padding-left: 1px; }
+
+.temasgeek {
+  padding-top: 15px; }
+
+#dropdown {
+  margin: 0px 50px 50px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px; }
+
+#media-geek {
+  margin-left: 40px; }
+
+#web-geek {
+  margin-left: 40px; }
+
+#app-geek {
+  margin-left: 40px; }
+
+#corpo-geek {
+  margin-left: 40px; }
+
+#person-geek {
+  margin-left: 40px; }
+
+#projects {
+  margin: 0px 0px 0px 40px;
+  border-radius: 5px;
+  font-size: 18px; }
+
+#contenidos {
+  font-size: 18px; }
+
+.comentgeek {
+  margin: 40px 40px 0px 0px;
+  font-size: 17px;
+  padding-left: 0px; }
+
+.sugerencia {
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+  border-radius: 2px;
+  padding: 8px 0px 0px 8px;
+  font-family: 'Numans', sans-serif;
+  width: 650px; }
+
+#submit {
+  font-family: 'Numans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: 649px;
+  height: 45px;
+  margin-left: 40px;
+  background-color: #3b8141;
+  border-color: #3b8141; }
+
+#cleanit {
+  font-family: 'Numans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: 649px;
+  height: 45px;
+  margin-left: 40px;
+  background-color: #ff4700;
+  border-color: #ff4700; }

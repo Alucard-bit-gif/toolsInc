@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+footer {
+  margin-top: 100px; }
+  footer .logoredes {
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 20px; }
